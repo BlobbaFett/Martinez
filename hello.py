@@ -1,0 +1,6 @@
+print('Hello world!')
+print('What is your name?')
+first_name = input()
+print('What is your last name?')
+last_name = input()
+print('It is good to meet you, ' + last_name + "," + " " + first_name )
