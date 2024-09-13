@@ -4,4 +4,8 @@ def factorial(n):
         result *= i
         print(result)
 factorial(6)
+
+def reminder(a,b):
+    print(a-((a//b)*b))
     
+reminder(3,2)
