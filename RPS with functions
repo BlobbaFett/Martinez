@@ -15,7 +15,7 @@ def choose():
             continue
         
         user_guess = int(user_guess)
-        selected_word = random.randint(1, 3)  # Corrected randit to randint
+        selected_word = random.randint(1, 3) 
 
         if user_guess == selected_word:
             print("It's a tie!")
