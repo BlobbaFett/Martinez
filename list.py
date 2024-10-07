@@ -58,14 +58,74 @@ random_words = [
     "serenity", "odyssey", "expanse", "whirl", "utopia"
 ]
 
-print(random_words[-1])
+#List slicing
 
-#list slicing
-list = [1,2,3,4,5,6,7,8,9,10]
-list.pop
-print(list[0:-1])
+List= [3, 22, 30, 5, 3, 20]
 
-#update list
-science = ['Biology', 'Math', 'art']
-science [2] = 'geology' 
+print (list[:])
+
+print(list[1:3])
+
+#Update a list
+
+science=["art", "chemistry", "math"]
+
+science[1]= "geology"
+
 print(science)
+
+integers = [2,5,9,20,27]
+
+integers.remove (27)
+
+print(integers)
+
+integers.pop()
+
+print(integers)
+
+list_fruits=["Sandia", "Limon", "naranja"]
+
+#pop remove del
+
+del list_fruits[1]
+
+print(list_fruits)
+
+list_names=["Anahi", "Pamela", "Quebec"]
+
+list_names.append("Dania")
+
+print(list_names)
+
+list_of_squares= []
+for int in range (1,10):
+    square= int**2
+    list_of_squares.append(square)
+    
+print(list_of_squares)
+
+numbers=[1, 2, 3, 4, 5, 6, 7, 8, 9]
+#[expression for int in list if condition]
+squared2 = [int**2 for int in range(1, 10)]
+print(squared2)
+
+numbers= [1, 2, 3, 4, 5, 6, 7, 8, 9,]
+for numbers in numbers:
+    print(numbers**3)
+    
+cubic = [num**3]
+print
+
+numbers= [1, 2, 3, 4, 5, 6, 7, 8, 9,]
+
+#1 doubling the values of each element
+
+#2 filtering the list to include and double only the even numbers
+
+#3 combining list comprehensions with condition.
+
+
+double_numbers = [num*2 for num in numbers if num%2 == 0]
+
+print (double_numbers)
