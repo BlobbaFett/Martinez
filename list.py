@@ -114,7 +114,7 @@ numbers= [1, 2, 3, 4, 5, 6, 7, 8, 9,]
 for numbers in numbers:
     print(numbers**3)
     
-cubic = [num**3]
+cubic = [numbers**3]
 print
 
 numbers= [1, 2, 3, 4, 5, 6, 7, 8, 9,]
