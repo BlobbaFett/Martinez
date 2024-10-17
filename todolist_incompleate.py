@@ -22,7 +22,7 @@ def remove_task():
 # Function to find the index of a task
 def find_task():
     task = input('Task you want to know: ')
-    print(todo_list.index(task))
+    print(f'{task} is in position {todo_list.index(task)+1} of the list')
 
 # Function to complete and remove the first task
 def complete_task():
