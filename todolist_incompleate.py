@@ -66,6 +66,8 @@ def main():
             filter_tasks()
         elif choice == '7':
             break
+        else:
+            print('Invalid option')
 
 # Run the main function
 main()
