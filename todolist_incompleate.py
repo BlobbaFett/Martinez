@@ -26,7 +26,7 @@ def find_task():
 
 # Function to complete and remove the first task
 def complete_task():
-        todo_list.pop(0)
+        print(f"{todo_list.pop(0)} was completed")
 
 # Function to filter tasks containing a specific keyword using list comprehension
 def filter_tasks():
@@ -54,17 +54,17 @@ def main():
         #TODO create the if staments for the user. 
         if choice == '1':
             display_todo_list()
-        if choice == '2':
+        elif choice == '2':
             add_task()
-        if choice == '3':
+        elif choice == '3':
             remove_task()
-        if choice == '4':
+        elif choice == '4':
             find_task()
-        if choice == '5':
+        elif choice == '5':
             complete_task()
-        if choice == '6':
+        elif choice == '6':
             filter_tasks()
-        if choice == '7':
+        elif choice == '7':
             break
 
 # Run the main function
