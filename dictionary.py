@@ -18,8 +18,8 @@ def lodad_contacts(file_name):
 def display_contact_info(contact_info):
     if contact_info:
         print('Contact Information: ')
-        print(f'First Name: {contact_info[0]}')
-        print(f'phone Number: {contact_info[1]}')
+        print(f'Full Name: {contact_info[0]}')
+        print(f'Phone Number: {contact_info[1]}')
         print(f'Email: {contact_info[2]}')
     else:
         print('No contact information found')

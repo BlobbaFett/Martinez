@@ -24,5 +24,6 @@ def choose():
             print(format_message('You win!'))
         else:
             print(format_message('You lose!'))
+            print(selected_word)
 
 choose()

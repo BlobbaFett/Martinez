@@ -17,4 +17,3 @@ while True:
         break
     else:
         print('wrong answer')  
-
