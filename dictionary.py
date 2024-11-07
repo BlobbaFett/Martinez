@@ -24,7 +24,7 @@ def display_contact_info(contact_info):
     else:
         print('No contact information found')
 def main():
-    file_name = r'C:\Users\Labinfo10\Documents\Quebec Martinez\contacts.csv'
+    file_name = r'C:\Users\Labinfo10\Documents\Quebec Martinez\archivos de chamba\contacts.csv'
     
     contacts = lodad_contacts(file_name)
     last_name = input('Please enter a last name to look up: ').strip()#.strip() is used to delete any white space:
