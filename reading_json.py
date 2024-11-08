@@ -18,6 +18,8 @@ def display_content(info):
         print(f'Name of the student: {info[0]}')
         print(f'Grade: {info[1]}')
         print(f'Group: {info[2]}') 
+    else:
+        print('student not found')
 
 def main():
     file_name = r'C:\Users\Labinfo10\Documents\Quebec Martinez\archivos de chamba\data.json'
