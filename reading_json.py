@@ -31,8 +31,3 @@ def main():
     display_content(info)
     
 main()
-        
-        
-        
-        
-        

@@ -1,5 +1,4 @@
 import csv
-
 def read_csv(file_name):
     mortalkombat = {}
     
@@ -28,11 +27,11 @@ def display_info(year_info):
             print("2. Injuries")
             print("3. Crashes")
             print('4. Fatal Crashes')
-            print("4. Distraction affected fatal crashes")
-            print("5. Fatal crashes involving cell phone use")
-            print('6. Fatal crashes involving excessive speed')
-            print('7. Fatal Crashes while driving under the influence')
-            print('8. Fatal Crashes involving fatigue or illness:')
+            print("5. Distraction affected fatal crashes")
+            print("6. Fatal crashes involving cell phone use")
+            print('7. Fatal crashes involving excessive speed')
+            print('8. Fatal Crashes while driving under the influence')
+            print('9. Fatal Crashes involving fatigue or illness:')
             
             choice = input("Enter your choice: ")
             
